@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rent Services</title>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- custom css link  -->
+    <style>
+        .list-item {
+            color: black;
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: opacity 100ms ease;
+        }
+        .logo {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                FindURNest
+            </div>
+
+            <ul class="nav-list ">
+                <li><a href="#property" class="list-item"> </a></li>
+                <li><a href="#service" class="list-item"></a></li>
+                <li><a href="#product" class="list-item"></a></li>
+                <li><a href="#aboutus  " class="list-item">About us</a></li>
+                <li><a href=" #contact" class="list-item  ">Contact us</a></li>
+            </ul>
+
+            <div class="mobile-menu" onclick="showMenu()">
+                <div class="line line1 "></div>
+                <div class="line line2 "></div>
+                <div class="line line3 "></div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar  -->
+
+    <!-- product  -->
+    <section id="product">
+        <div class="product-info">
+            <h2 class="product-title">
+                our Popular Residence
+            </h2>
+
+            <!-- <a href="" class="product-btn">
+                Explore All
+                <img src="arrow.svg" alt="">
+            </a> -->
+        </div>
+        <div class="container">
+            <div class="product-card">
+                <img src="house1.jpg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">Triumph Design,Valasaravakkam</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>5Beds</p>
+                        </div>
+                        <!-- <div class="content">
+                            <img src="size.svg" alt="">
+                            <p>10x10m</p>
+                        </div> -->
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>1000Sqft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>20K/mon</p>
+                        <a href="details1.html" class="booking-btn" target="_blank">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house2.webp" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">Independent House,Jalandhar </p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>3Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>2400SqFt</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>11K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house3.avif" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">Independent House,Palakkad</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>4Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>1200Sqft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>15K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house45.jpg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">House Plaz,Pakial</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>2Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>1000Sq.ft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>10K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house5.jpg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">3BHK House,Kozhikode</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>4Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>1500Sq.ft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>15K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house6.jpg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">4BHK House,kodial</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>5Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>2500Sq.ft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>18K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house7.jpg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">2BHK House,Kottayam</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>3Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>1100Sq.ft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>11k/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house8.jpeg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">2BHK House,Thrissur</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>2Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>900Sq.ft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>8K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="house9.jpg" alt="" class="product-img">
+                <div class="card-info">
+
+                    <div class="card-info-content">
+                        <img src="location.svg" alt="">
+                        <p class="loaction-name">3BHK House,Alappuzha</p>
+                    </div>
+                    <div class="card-info-content">
+                        <div class="content">
+                            <img src="bed.svg" alt="">
+                            <p>3Beds</p>
+                        </div>
+                        <div class="content">
+                            <img src="area.svg" alt="">
+                            <p>1600Sq.Ft</p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>16K/mon</p>
+                        <a href="details1.html" class="booking-btn">Details</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product  -->
+
+    <!-- gsap link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap link  -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
